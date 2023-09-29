@@ -1,0 +1,80 @@
+/* Add these styles to your CSS file */
+
+.main {
+    padding: 20px;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+#ask-feedback-body {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f5f5f5;
+}
+
+#employee-name,
+#employee-email,
+#employee-type,
+#employee-adminRank,
+#employee-company,
+#employee-rating {
+    margin-bottom: 10px;
+}
+
+#assign-feedback-btn,
+#delete-employee-btn {
+    width: 150px;
+}
+
+#delete-employee-btn {
+    margin-left: 10px;
+}
+
+#feedback-giver-list .btn {
+    min-width: 70px;
+    margin-top: 5px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.container {
+    padding: 15px;
+}
+
+/* Styling for sweetalert modals */
+.swal-modal {
+    border-radius: 10px;
+}
+
+.swal-title {
+    font-size: 24px;
+}
+
+.swal-text {
+    font-size: 18px;
+}
+
+.swal-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.swal-button:hover {
+    background-color: #0056b3;
+}

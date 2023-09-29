@@ -1,0 +1,38 @@
+{
+  "name": "employee-review-sys",
+  "version": "1.4.5",
+  "description": "Employee review system webapp is an online platform designed to assist companies in managing their employee performance evaluations. The system allows managers to conduct employee performance reviews, track progress, and provide feedback in a centralized location.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Oishik Dutta",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^5.0.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.1.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrOdutta/EmployeeReviewSys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrOdutta/EmployeeReviewSys/issues"
+  },
+  "homepage": "https://github.com/mrOdutta/EmployeeReviewSys#readme"
+}
